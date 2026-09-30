@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://barangay-ayuda.onrender.com";
 
 function App() {
   const [showForm, setShowForm] = useState(false);
